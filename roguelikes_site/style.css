@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+*{
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(24, 24, 24);
+    background-image: url("images/spelunkyImg3b.jpg");
+    color:rgb(37, 37, 37);
+    margin:0;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner{
+    background-image: url(images/spelunkyImg9.jpg);
+    min-height:  150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0px black solid;
+    border-bottom: 5px rgb(62, 62, 62) solid;
+}
+
+.banner-sub-box{
+    background-color: rgba(152, 152, 152, 0.708);
+    font-size: 38px;
+    border: 3px solid silver;
+    border-radius: 3px;
+}
+
+.banner-sub-box a{
+    text-decoration: none;
+    color:rgb(235, 235, 235);
+
+}
+
+.main-content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    width: 600px;
+    min-width: 60%;
+    margin: auto;
+    background-color: rgba(241, 241, 241, 0.868);
+}
+
+.header-container{
+    justify-self: center;
+    text-align: center;
+}
+
+.content-container{
+    margin: 4px;
+    padding: 5px 10px;
+}
+
+img{
+    width: 100%;
+}
+
+.img-container{
+    /* background-color: blue; */
+    padding: 8px;
+}
+
+.example-all-container{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.example-item-container{
+    padding:  4px;
+    display: flex;
+    flex-direction: row;
+}
+
+.example-item-container div{
+    width: 50%;
+    flex-grow: 1;
+}
+
+.multi-image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+/* id: */
+
+/* #unique-thing{
+    color:chartreuse;
+}  */
