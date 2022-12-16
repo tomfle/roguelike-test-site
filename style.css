@@ -97,6 +97,17 @@ img{
     justify-content: space-evenly;
 }
 
+canvas{
+    margin: 0;
+}
+
+#original-rogue{
+    width: 100%;
+}
+
+#demo-container{
+    padding: 0;
+}
 
 /* id: */
 

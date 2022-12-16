@@ -1,11 +1,12 @@
 /*
-
+Just a note that I wrote this code pretty quickly, and I'm Very rusty on javascript
+..just getting my excuses out in advance there :)
  */
 
 var canvas = document.createElement("canvas");
 canvas.width = 512;
 canvas.height = 512;
-var demoContainer = document.getElementById("demo_container");
+var demoContainer = document.getElementById("demo-container");
 demoContainer.appendChild(canvas);
 //canvas.style.border = "none";
 //canvas.style.padding = "0px 0px 0px 0px";
@@ -148,7 +149,7 @@ class Player {
         }
     }
     thrustStart() {
-        //Missus!
+        
         this.thusting = true;
     }
     thrustStop() {
